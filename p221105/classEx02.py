@@ -51,17 +51,3 @@ park =Student('박', 9)
 park.infoPrint()
 
 
-
-'''
-변수 종류 
-- 전역변수
--지역변수
-
-
-Class 내의 멤버변수 
-- 객체변수 
-- 클래스 classs 변수
-
-
-
-'''
