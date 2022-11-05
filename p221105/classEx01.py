@@ -26,3 +26,30 @@ class 클래스명:
 
 
 '''
+
+class Student:
+    #멤버함수 : 메서드 올수있지요
+    #name = ''
+    def setName(self, name):
+        self.name = name
+    def greeting(self):
+        print( self.name+ ' 님 안녕하세요',self)
+    def infoPrint(self):
+        print('제 이름은 '+self.name + '입니다 ')
+        print('self address >> ',self)
+
+
+# 객체 인스턴스 생성 ( 클래스 멤버 영역 X )
+hong = Student() 
+# hong 주소값이 저장이 된 변수 즉 참조변수 
+print(hong) # ~F150
+hong.setName('홍!')
+hong.greeting() # ~F150
+hong.infoPrint()
+
+park = Student() 
+# hong 주소값이 저장이 된 변수 즉 참조변수 
+print(park) # ~F150
+park.setName('팍!')
+park.greeting() # ~F150
+park.infoPrint()
