@@ -26,10 +26,10 @@ class Person:
     count =0 
     #클래스변수는 메모리에 먼저 들어와버린다
 
-    def __init__(self ):
+    def __init__(s ):
         print('사람객체 생성완')
 
-    def info(self):
+    def info(s):
         # 객체 변수( 인스턴스변수!  ! ) 
         #print(f'현재 있는사람객체는 = {count} 개 입니다')
         Person.count = Person.count+1 
